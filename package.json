@@ -1,0 +1,17 @@
+{
+  "name": "syslog-telegram",
+  "version": "1.0.0",
+  "description": "pipes syslogs into a telegram channel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "node-fetch": "^3.2.3",
+    "syslog-server": "^1.0.1"
+  }
+}
